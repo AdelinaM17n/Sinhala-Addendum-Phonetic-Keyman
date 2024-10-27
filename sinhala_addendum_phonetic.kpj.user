@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<KeymanDeveloperProjectUser>
+  <ViewState>
+    <tab>1</tab>
+    <showhelp>1</showhelp>
+    <path>C:\Users\mahee\OneDrive\Documents\Keyman Developer\Projects\sinhala_addendum_phonetic\sinhala_addendum_phonetic.kpj</path>
+    <file ID="id_e11c54317a9d8991ae54d3806da8a911" Expanded="1"/>
+  </ViewState>
+  <FileStates>
+    <FileState>
+      <ID>id_ede98e4633e239f933cbfd1f4e1b766c</ID>
+      <FullPath>C:\Users\mahee\OneDrive\Documents\Keyman Developer\Projects\sinhala_addendum_phonetic\HISTORY.md</FullPath>
+      <IDEState>
+        <CodeFont>Consolas|-9|   |0</CodeFont>
+        <CharFont>Consolas|-9|   |0</CharFont>
+      </IDEState>
+    </FileState>
+    <FileState>
+      <ID>id_53e892b8b41cc4caece1cfd5ef21d6e7</ID>
+      <FullPath>C:\Users\mahee\OneDrive\Documents\Keyman Developer\Projects\sinhala_addendum_phonetic\LICENSE.md</FullPath>
+      <IDEState>
+        <CodeFont>Consolas|-9|   |0</CodeFont>
+        <CharFont>Consolas|-9|   |0</CharFont>
+      </IDEState>
+    </FileState>
+    <FileState>
+      <ID>id_0730bb7c2e8f9ea2438b52e419dd86c9</ID>
+      <FullPath>C:\Users\mahee\OneDrive\Documents\Keyman Developer\Projects\sinhala_addendum_phonetic\README.md</FullPath>
+      <IDEState>
+        <CodeFont>Consolas|-9|   |0</CodeFont>
+        <CharFont>Consolas|-9|   |0</CharFont>
+      </IDEState>
+    </FileState>
+    <FileState>
+      <ID>id_0d4b4f9b25cee8ca3b0cf4df4d8433d1</ID>
+      <FullPath>C:\Users\mahee\OneDrive\Documents\Keyman Developer\Projects\sinhala_addendum_phonetic\sinhala_addendum_phonetic.kpj</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_c29a5d9855f15710262e31d9b72172b3</ID>
+      <FullPath>C:\Users\mahee\OneDrive\Documents\Keyman Developer\Projects\sinhala_addendum_phonetic\sinhala_addendum_phonetic.kpj.user</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_8da344c4cea6f467013357fe099006f5</ID>
+      <FullPath>C:\Users\mahee\OneDrive\Documents\Keyman Developer\Projects\sinhala_addendum_phonetic\source\readme.htm</FullPath>
+      <IDEState>
+        <CodeFont>Consolas|-9|   |0</CodeFont>
+        <CharFont>Consolas|-9|   |0</CharFont>
+      </IDEState>
+    </FileState>
+    <FileState>
+      <ID>id_44501f1ce3843d47c4a7d941ad76f131</ID>
+      <FullPath>C:\Users\mahee\OneDrive\Documents\Keyman Developer\Projects\sinhala_addendum_phonetic\source\sinhala_addendum_phonetic.ico</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_4e2a5e6190033080d925915de7993dcf</ID>
+      <FullPath>C:\Users\mahee\OneDrive\Documents\Keyman Developer\Projects\sinhala_addendum_phonetic\source\sinhala_addendum_phonetic.kmn</FullPath>
+      <IDEState>
+        <CodeFont>Consolas|9|   |0</CodeFont>
+        <LayoutDisplay102Key>0</LayoutDisplay102Key>
+        <DebugDefaultFont>1</DebugDefaultFont>
+        <DebugFont>Consolas|-9|   |0</DebugFont>
+        <CharFont>Consolas|-9|   |0</CharFont>
+      </IDEState>
+      <Debug>True</Debug>
+    </FileState>
+    <FileState>
+      <ID>id_e11c54317a9d8991ae54d3806da8a911</ID>
+      <FullPath>C:\Users\mahee\OneDrive\Documents\Keyman Developer\Projects\sinhala_addendum_phonetic\source\sinhala_addendum_phonetic.kps</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_ad7ad8e267ff121db67eed9659909766</ID>
+      <FullPath>C:\Users\mahee\OneDrive\Documents\Keyman Developer\Projects\sinhala_addendum_phonetic\source\sinhala_addendum_phonetic.kvks</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_356e5d149c1e539356d72698c1e401a6</ID>
+      <FullPath>C:\Users\mahee\OneDrive\Documents\Keyman Developer\Projects\sinhala_addendum_phonetic\source\welcome.htm</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_a3270f8b500f74398270d32f4afccafe</ID>
+      <FullPath>C:\Users\mahee\OneDrive\Documents\Keyman Developer\Projects\sinhala_addendum_phonetic\source\..\build\sinhala_addendum_phonetic.kmx</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_3486312c42c7931eefd9fd101ba3e2b7</ID>
+      <FullPath>C:\Users\mahee\OneDrive\Documents\Keyman Developer\Projects\sinhala_addendum_phonetic\source\..\build\sinhala_addendum_phonetic.kvk</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_c296b5df3dc126e219e0173fcbc1baec</ID>
+      <FullPath>C:\Users\mahee\OneDrive\Documents\Keyman Developer\Projects\sinhala_addendum_phonetic\source\..\LICENSE.md</FullPath>
+    </FileState>
+  </FileStates>
+  <MRU>
+    <File>
+      <ID>id_MRU0</ID>
+      <Filename>sinhala_addendum_phonetic.kmn</Filename>
+      <FileType>.kmn</FileType>
+      <FullPath>C:\Users\mahee\OneDrive\Documents\Keyman Developer\Projects\sinhala_addendum_phonetic\source\sinhala_addendum_phonetic.kmn</FullPath>
+    </File>
+    <File>
+      <ID>id_MRU1</ID>
+      <Filename>LICENSE.md</Filename>
+      <FileType>.md</FileType>
+      <FullPath>C:\Users\mahee\OneDrive\Documents\Keyman Developer\Projects\sinhala_addendum_phonetic\LICENSE.md</FullPath>
+    </File>
+    <File>
+      <ID>id_MRU2</ID>
+      <Filename>README.md</Filename>
+      <FileType>.md</FileType>
+      <FullPath>C:\Users\mahee\OneDrive\Documents\Keyman Developer\Projects\sinhala_addendum_phonetic\README.md</FullPath>
+    </File>
+    <File>
+      <ID>id_MRU3</ID>
+      <Filename>readme.htm</Filename>
+      <FileType>.htm</FileType>
+      <FullPath>C:\Users\mahee\OneDrive\Documents\Keyman Developer\Projects\sinhala_addendum_phonetic\source\readme.htm</FullPath>
+    </File>
+    <File>
+      <ID>id_MRU4</ID>
+      <Filename>HISTORY.md</Filename>
+      <FileType>.md</FileType>
+      <FullPath>C:\Users\mahee\OneDrive\Documents\Keyman Developer\Projects\sinhala_addendum_phonetic\HISTORY.md</FullPath>
+    </File>
+  </MRU>
+</KeymanDeveloperProjectUser>
