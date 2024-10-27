@@ -1,0 +1,100 @@
+﻿c sinhala_addendum_phonetic generated from template at 2024-10-20 00:05:30
+c with name "Sinhala Addendum Phonetic"
+store(&VERSION) '10.0'
+store(&NAME) 'Sinhala Addendum Phonetic'
+store(&COPYRIGHT) 'Copyright © Maheesha Adelina'
+store(&KEYBOARDVERSION) '1.0'
+store(&TARGETS) 'windows macosx linux desktop'
+store(&BITMAP) 'sinhala_addendum_phonetic.ico'
+store(&VISUALKEYBOARD) 'sinhala_addendum_phonetic.kvks'
+
+begin Unicode > use(main)
+
+group(main) using keys
+
+store(shortVowelInputs) "aiueo"
+store(vowelOutputs) U+0D85 U+0D89 U+0D8B U+0D91 U+0D94
+store(depVowelOuts) nul U+0DD2 U+0DD4 U+0DD9 U+0DDC
+
+store(longVowelInputs) "AIUEO"
+store(longVowelOutputs) U+0D86 U+0D8A U+0D8C U+0D92 U+0D95
+store(deplongVowelOuts) U+0DCF U+0DD3 U+0DD6 U+0DDA U+0DDD
+
+store(directConstInputs) "wrtypsdfghjklvbnmRYLNTPDGJKB"
+store(directConstOutputs) U+0DC0 U+0DBB U+0DA7 U+0DBA U+0DB4 U+0DC3 U+0DA9 U+0DC6 U+0D9C \
+ U+0DC4 U+0DA2 U+0D9A U+0DBD U+0DC0 U+0DB6 U+0DB1 U+0DB8 U+0DBB U+0DBA U+0DC5 U+0DAB \
+ U+0DA8 U+0DB5 U+0DA9 U+0D9D U+0DA3 U+0D9B U+0DB7
+
+store(unaspirateKey) U+0D9A U+0D9C U+0DA0 U+0DA2 U+0DA7 U+0DA9 U+0DAD U+0DAF U+0DB4 U+0DB6
+store(aspirateValues) U+0D9B U+0D9D U+0DA1 U+0DA3 U+0DA8 U+0DAA U+0DAE U+0DB0 U+0DB5 U+0DB7
+
+store(prenasalDirectInputs) "DGJB"
+store(prenasalDirectOutputs) U+0DAC U+0D9F U+0DA6 U+0DB9
+
+store(allConsts) U+0D9A U+0D9B U+0D9C U+0D9D U+0D9E U+0D9F U+0DA0 U+0DA1 U+0DA2 U+0DA3 \
+ U+0DA4 U+0DA5 U+0DA6 U+0DA7 U+0DA8 U+0DA9 U+0DAA U+0DAB U+0DAC U+0DAD U+0DAE U+0DAF \
+ U+0DB0 U+0DB1 U+0DB3 U+0DB4 U+0DB5 U+0DB6 U+0DB7 U+0DB8 U+0DB9 U+0DBA U+0DBB U+0DBD U+0DC0 \
+ U+0DC1 U+0DC2 U+0DC3 U+0DC4 U+0DC5 U+0DC6
+
+store(deadkeyInputs) "cS"
+store(deadkeyOutputs) dk(cOrK) dk(sOrSh)
+store(deadkeyDefaultChars) U+0D9A U+0DC3
+
+store(autoLigatureInputs) "ry"
+store(autoLigatureOutputs) U+0DBB U+0DBA
+
++ any(shortVowelInputs) > index(vowelOutputs, 1)
++ any(longVowelInputs) > index(longVowelOutputs, 1)
+
+U+0D85 + "a" > U+0D86
+U+0D87 + "e" > U+0D88
+U+0D89 + "i" > U+0D8A
+U+0D8B + "u" > U+0D8C
+U+0D91 + "e" > U+0D92
+U+0D94 + "o" > U+0D95
+
+U+0D85 + "e" > U+0D87
+U+0D85 + "i" > U+0D93
+U+0D85 + "u" > U+0D96
+
+any(allConsts) U+0DCA + any(shortVowelInputs) > context(1) index(depVowelOuts, 3)
+any(allConsts) U+0DCA + any(longVowelInputs) > context(1) index(deplongVowelOuts, 3)
+
+any(allConsts) + "a" > context(1) U+0DCF
+any(allConsts) U+0DD0 + "e" > context(1) U+0DD1
+any(allConsts) U+0DD2 + "i" > context(1) U+0DD3
+any(allConsts) U+0DD4 + "u" > context(1) U+0DD6
+any(allConsts) U+0DD9 + "e" > context(1) U+0DDA
+any(allConsts) U+0DDC + "0" > context(1) U+0DDD
+
+any(allConsts) + "e" > context(1) U+0DD0
+any(allConsts) + "i" > context(1) U+0DDB
+any(allConsts) + "u" > context(1) U+0DDE
+any(allConsts) U+0DD0 + "e" > context(1) U+0DD1
+any(allConsts) U+0DD8 + "u" > context(1) U+0DF2
+
+U+0DA7 U+0DCA + "h" > U+0DAD U+0DCA
+U+0DA8 U+0DCA + "h" > U+0DAE U+0DCA
+U+0DA9 U+0DCA + "h" > U+0DAF U+0DCA
+U+0DAA U+0DCA + "h" > U+0DB0 U+0DCA
+U+0DAC U+0DCA + "h" > U+0DB3 U+0DCA
+U+0DC3 U+0DCA + "h" > U+0DC2 U+0DCA
+
+U+0D9A U+0DCA dk(cOrK) + "h" > U+0DA0 U+0DCA
+U+0DC3 U+0DCA dk(sOrSh) + "h" > U+0DC1 U+0DCA
+
++ any(deadkeyInputs) > index(deadkeyDefaultChars,1) U+0DCA index(deadkeyOutputs,1)
+any(deadkeyOutputs) + any(shortVowelInputs) > index(vowelOutputs, 2)
+any(deadkeyOutputs) + any(longVowelInputs) > index(longVowelInputs, 2)
+any(deadkeyOutputs) + any(directConstInputs) > index(directConstOutputs, 2) U+0DCA
+any(allConsts) U+0DCA any(deadkeyOutputs) + any(shortVowelInputs) > context(1) index(depVowelOuts, 4)
+any(allConsts) U+0DCA any(deadkeyOutputs) + any(longVowelInputs) > context(1) index(deplongVowelOuts, 4)
+
+any(autoLigatureOutputs) U+0DCA + any(autoLigatureInputs) > context(1) U+0DCA index(autoLigatureOutputs,3) U+0DCA
+any(allConsts) U+0DCA + any(autoLigatureInputs) > context(1) U+0DCA U+200D index(autoLigatureOutputs,3) U+0DCA
+U+200D U+0DBB U+0DCA + "u" > U+0DD8
+U+200D U+0DBB U+0DCA + "U" > U+0DF2
+
+any(unaspirateKey) U+0DCA + "H" >  index(aspirateValues, 1) U+0DCA
+U+0DB1 U+0DCA + any(prenasalDirectInputs) > index(prenasalDirectOutputs, 3) U+0DCA 
++ any(directConstInputs) > index(directConstOutputs, 1) U+0DCA
